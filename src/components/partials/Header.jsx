@@ -20,10 +20,13 @@ const Header = ({ data }) => {
         <h1 className="text-4xl md:text-5xl font-bold text-white tracking-wide">
           {data.title || data.name || data.original_name || data.original_title}
         </h1>
-        
+
         <p className="text-base text-gray-200 line-clamp-3">
           {data.overview}
-          <Link to={`/${data.media_type}/details/${data.id}`} className="ml-2 text-[#6556CD] hover:underline inline-flex items-center">
+          <Link
+            to={`/${data.media_type}/details/${data.id}`}
+            className="ml-2 text-[#6556CD] hover:underline inline-flex items-center"
+          >
             more <i className="ri-arrow-right-line ml-1"></i>
           </Link>
         </p>
@@ -40,10 +43,16 @@ const Header = ({ data }) => {
         </div>
 
         <div className="flex gap-4 pt-4">
-          <Link className="bg-[#6556CD] hover:bg-[#5346BD] text-white px-6 py-3 rounded-full font-medium transition-colors inline-flex items-center">
+          <Link
+            to={`/${data.media_type}/details/${data.id}/trailer`}
+            className="bg-[#6556CD] hover:bg-[#5346BD] text-white px-6 py-3 rounded-full font-medium transition-colors inline-flex items-center"
+          >
             <i className="ri-play-fill mr-2"></i> Watch Trailer
           </Link>
-          <Link className="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-full font-medium transition-colors backdrop-blur-sm">
+          <Link
+            to={`/${data.media_type}/details/${data.id}`}
+            className="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-full font-medium transition-colors backdrop-blur-sm"
+          >
             More Info
           </Link>
         </div>

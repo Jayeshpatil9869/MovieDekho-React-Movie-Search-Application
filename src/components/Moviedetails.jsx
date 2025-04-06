@@ -47,7 +47,7 @@ const Moviedetails = () => {
           >
             <i className="ri-external-link-fill"></i>
           </a>
-        )}
+        )}  
         {info.externalid?.wikidata_id && (
           <a
             target="_blank"
