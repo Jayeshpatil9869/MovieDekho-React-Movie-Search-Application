@@ -1,40 +1,68 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# MovieSearch – React + Vite
+
+This project provides a minimal setup to get React working with Vite, Hot Module Replacement (HMR), and ESLint configurations.
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) – uses [Babel](https://babeljs.io/) for Fast Refresh
+* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) – uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Expanding ESLint Configuration
 
+For production-level apps, we recommend using **TypeScript** and enabling type-aware lint rules. Check out the [TypeScript template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate `typescript-eslint`.
 
+---
 
-# MovieDekho
+# 🎬 MovieSearch
 
-**MovieDekho** is a React-based movie search application where users can explore various movies, view details like ratings, release dates, and genres. Built with **React** and **Vite**, the app allows users to quickly search for movies and get real-time results using a movie API.
+**MovieSearch** is a lightweight React-based movie search application where users can explore various movies and view details like ratings, release dates, and genres. Built with **React** and **Vite**, the app provides real-time search results by integrating with a movie API.
 
-## Features
+---
 
-- **Search Movies**: Easily search for movies by title.
-- **Movie Details**: View detailed information about each movie, such as its plot, release date, and ratings.
-- **Fast Refresh**: Built with Vite, providing fast HMR (Hot Module Replacement) to ensure a smooth development experience.
-- **ESLint Configurations**: The project comes with pre-configured ESLint for code quality and consistency.
+## 🔧 Features
 
-## Tech Stack
+* 🔍 **Search Movies** – Instantly search for movies by title
+* 📋 **Movie Details** – View plot, release date, ratings, and more
+* ⚡ **Fast Refresh** – Enabled by Vite’s Hot Module Replacement
+* ✅ **ESLint Ready** – Pre-configured for consistent code quality
 
-- **React**: JavaScript library for building user interfaces.
-- **Vite**: A modern build tool for faster development with fast HMR.
-- **ESLint**: Linting tool to maintain code quality.
+---
 
-## Setup
+## 🛠️ Tech Stack
 
-To run the project locally, follow the steps below:
+* **React** – Frontend library for building UI
+* **Vite** – Lightning-fast development and bundling
+* **ESLint** – Code quality and formatting
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/moviedekho.git
+---
 
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository:
+
+```bash
+git clone https://github.com/your-username/moviesearch.git
+```
+
+### 2. Navigate to the project folder:
+
+```bash
+cd moviesearch
+```
+
+### 3. Install Dependencies:
+
+```bash
+npm install
+```
+
+### 4. Run the Development Server:
+
+```bash
+npm run dev
+```
